@@ -1,8 +1,6 @@
 pipeline {
     agent any
     
-    
-    
     stages {
         stage('Checkout Terraform code') {
             steps {
@@ -28,6 +26,4 @@ pipeline {
             }
         }
     }
-    
-
 }
